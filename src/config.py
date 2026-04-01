@@ -56,6 +56,21 @@ DEPARTMENT_HIERARCHY = {
     }
 }
 
+SUMMARY_ROW_POSITIONS = {
+    "HC":         {"Total OPEX": 166, "Total Entrata": 167, "HC excl. LC": 169},
+    "HC-US":      {"Total OPEX": 166, "Total Entrata": 167, "HC excl. LC": 169},
+    "HC-India":   {"Total OPEX": 170, "Total Entrata": 171, "HC excl. LC": 173},
+    "HC-RD":      {"Total OPEX": 170, "Total Entrata": 171, "HC excl. LC": 173},
+    "HC-Colleen": {"Total OPEX": 170, "Total Entrata": 171, "HC excl. LC": 173},
+}
+
+SUMMARY_ROW_LABELS = ["Total OPEX", "Total Entrata", "HC excl. LC"]
+
+LC_FTE_ENTITIES = ["US"]
+LC_INTEGER_ENTITIES = ["India", "RD", "Colleen"]
+
+ONLY_ROW_SUFFIX = "(Only)"
+
 ZERO_HC_ROWS = [
     "COR Only",
     "COR Only - US",
