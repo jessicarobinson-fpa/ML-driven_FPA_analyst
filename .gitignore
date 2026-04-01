@@ -2,7 +2,9 @@
 data/raw/*.xlsx
 data/raw/*.csv
 data/interim/*.csv
+data/interim/*.parquet
 data/processed/*.csv
+data/processed/*.parquet
 
 # Environment
 .env
