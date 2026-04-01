@@ -1,0 +1,22 @@
+# Data files (may contain sensitive HC data)
+data/raw/*.xlsx
+data/raw/*.csv
+data/interim/*.csv
+data/processed/*.csv
+
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
